@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link href="css/bootstrap.css" rel="stylesheet">-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            font-family: Arial;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        img{
+            border:none;
+        }
+        .container{
+            width:800px;
+            height:1000px;
+            margin:0 auto;
+            border:1px solid #ccc;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 0 0 20px 0 rgba(34,58,109,34);
+        }
+        .main{
+            width:550px;
+        }
+        .inner{
+            width:500px;
+            margin:0 auto;
+        }
+        h1{
+            font-size: 60px;
+            color:#ddd;
+        }
+        .education{
+            padding-top:35px;
+
+        }
+        .education:hover{
+            background:#eee;
+        }
+        .introduce{
+            width:250px;
+            background:rgba(125,215,58,105);
+            color:#fff;
+            text-align: center;
+            flex-grow: 1;
+
+        }
+        .introduce h2{
+            font-size: 50px;
+            padding-top:15px;
+        }
+        .introduce p{
+            font-size:20px;
+        }
+        .introduce .me{
+            padding:20px 0 0 18px;
+            text-align: left;
+        }
+        .introduce .me a{
+            text-decoration: none;
+            display:block;
+            color:#fff;
+            padding-bottom: 10px;;
+        }
+        .introduce .me a:hover{
+            color:#c81620;
+        }
+        .introduce .pic img{
+            width:170px;
+            height:240px;
+        }
+        .background{
+            color:#ccc;
+            font-size:30px;
+        }
+        .major,.book{
+            border-top:2px solid #1b6d85;
+            padding-top:10px;
+        }
+        .school{
+            display: flex;
+            flex-direction: row;
+            color:#000;
+            font-size:15px ;
+        }
+        .collage{
+            padding:0 78px 0 50px;
+        }
+        .major_lessons{
+            font-size: 20px;
+            color:#000;
+        }
+        .lessons span,.book span{
+            padding-right:5px;
+            font-size: 18px;
+            color:#000;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <div class="inner">
+            <h1>Personal resume</h1>
+            <div class="education">
+                <div class="background"><i class="fa fa-header"></i><span>教育背景</span></div>
+                <div class="major">
+                    <div class="school">
+                        <div class="time">2013.9-2017.6</div>
+                        <div class="collage">淮北师范大学</div>
+                        <div class="way">计算机科学与技术（本科）</div>
+                    </div>
+                    <div class="lessons">
+                        <div class="major_lessons">主修课程</div>
+                        <span>web前端</span><span>数据库</span><span>计算机组成原理</span><span>高等数学</span><span>c语言</span><span>计算机网络</span><span>大学英语</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="background"><i class="fa fa-book"></i><span>相关技能</span></div>
+                <div class="book">
+                    <span>英语四级</span>
+                    <span>英语六级</span>
+                    <span>熟练掌握语义化的HTML和具有兼容性的css</span>
+                    <span>掌握HTML和css,JavaScript</span>
+                    <span>熟练操作DW,webstrom,ps,github等工具</span>
+                    <span>熟练运用bootstrap,angular,jquery等前端库</span>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="background"><i class="fa fa-car"></i><span>校内实践</span></div>
+                <div class="major">
+                    <div class="school">
+                        <div class="time">2013.9至今</div>
+                        <div class="collage">淮北师范大学</div>
+                        <div class="way">文化实习生</div>
+                    </div>
+                    <div class="lessons">
+                        <div class="major_lessons"></div>
+                        <span>创意策划</span><span>数据分析</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="background"><i class="fa fa-car"></i><span>校外实践</span></div>
+                <div class="major">
+                    <div class="school">
+                        <div class="time">2016.11至今</div>
+                        <div class="collage">淮北煤炭责任有限公司</div>
+                        <div class="way">文化实习生</div>
+                    </div>
+                    <div class="lessons">
+                        <div class="major_lessons"></div>
+                        <span>创意策划</span><span>数据分析</span><span>市场调研</span><span>网页撰写</span><span>系统维护</span><span>与地区分公司,公关部门及广告公司协调广告概念等相关事宜。</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="background"><i class="fa fa-calendar"></i><span>项目经验</span></div>
+                <div class="major">
+                    <div class="school">
+                        <div class="time">2016.12-2017.5</div>
+                        <div class="collage">上海火星时代培训公司</div>
+                        <div class="way">文化实习生</div>
+                    </div>
+                    <div class="lessons">
+                        <div class="major_lessons"></div>
+                        <span>模拟开发网易云音乐,模拟开发京东网站</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="background"><i class="fa fa-pencil"></i><span>自我评价</span></div>
+                <div class="book">
+                    <span>对互联网保持高度的敏感性和关注度,熟悉产品开发流程,有较强的产品规划、需求分析、交互设计能力,能和团队一起承担APP和WEB项目的管控工作,善于沟通,贴近用户。衷情于互联网技术应用,在一年的工作经验当中,通过自身努力获得了不错的成绩;我正在寻找一个更好的发展平台，希望能够充分发挥自己的优势,共同努力成就一番事业。</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="introduce">
+        <div class="pic"><img src="images/XNX59U6E6_MW5%5DYVT%7BIKR2W.jpg"></div>
+        <h2 class="name">舒展</h2>
+        <p>求职目标:前端开发工程师</p>
+        <div class="me">
+            <a href="#"><i class="fa fa-male"></i><span>22岁</span></a>
+            <a href="#"><i class="fa fa-calendar-o"></i><span>上海闵行</span></a>
+            <a href="#"><i class="fa fa-phone"></i><span>18156902837</span></a>
+            <a href="#"><i class="fa fa-twitter"></i><span>2289321015@qq.com</span></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
